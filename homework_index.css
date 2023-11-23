@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+
+body {
+   background-image: url(./photos/concrete_seamless.png);
+
+}
+
+/* HEADER */
+.headerhr {
+    border: 1px solid #ccc; 
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+   
+}
+
+.headerdiv {
+    display: flex;
+    background-color: white;
+}
+
+.logo {
+    position: relative;
+    left: 210px;
+    background-color:#4aaaa5;
+    color: white;
+    width: 220px;
+    height: 85px;
+    text-align: center;
+    padding: 23px 0px 0px 0px;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+
+.navbar {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    left: 720px;
+    padding: 25px 0px 0px 0px;
+}
+
+.navbar a {
+    padding: 0px 10px 0px 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+/* ONE SECTION INDEX PAGE */
+
+.main_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.section_one {
+    width: 100%;
+    max-width: 650px;
+    padding: 30px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 50px;
+    border: solid 1px #ddd;
+
+    
+   
+}
+
+.aboutme {
+    color: #4aaaa5;
+    padding: 15px 15px 15px 15px;
+    font-size: 23px;
+    
+}
+
+.aboutme h1 {
+    position: relative;
+    right: 15px;
+}
+
+.imgcat {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 30px;
+    margin-right: 25px;
+    
+}
+
+.textmain {
+    line-height: 35px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.firsthr
+{
+    border: solid 2px lightgray;
+    border-radius: 10px; 
+}
+.firsttw {
+    border: solid 1px lightgray;
+    border-radius: 10px;
+    margin: 0px 10px 0px 2px ;
+}
+
+/* TWO SECTION */
+
+.section_two {
+    padding: 0px 0px 0px 0px;
+    width: 270px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: solid 1px #ddd;   
+    margin: 0px 0px 250px 25px;
+}
+
+.socialdiv {
+    text-align: center;
+    margin-top: 15px;
+}
+.social {
+  width: 62px;
+  height: 62px;
+
+
+}
+
+.connect {
+    color: #4aaaa5;
+    padding: 15px 15px 15px 25px;
+    font-size: 15px;
+    margin: 10px 0px 0px 15px;
+
+}
+
+/* FOOTER */
+
+footer {
+    background-color: gray;
+    border-top: 7px solid #4aaaa5;
+    height: 70px;
+}
+
+.foot_box {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 15px;
+
+
+}
+
+
+
+
+
+
+
+
